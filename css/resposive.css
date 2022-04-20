@@ -1,0 +1,81 @@
+@media(max-width:1360px){
+    .big-text{
+        font-size: 45px;
+    }
+    .medium-text{
+        font-size: 30px;
+    }
+    .small-text{
+        font-size: 20px;
+    }
+    .nav{
+        padding: 0%;
+    }
+    .nav-link ul li{
+        display: block;
+    }
+    .nav-link ul li a{
+        transition: 0.5s;
+    }
+    .nav-link ul li a:hover{
+        color: rgb(102, 39, 39);
+    }
+    .nav-link{
+        position: fixed;
+        background: red;
+        height: 100vh;
+        width: 220px;
+       top: 0;
+       right: -520px;
+        text-align: left;
+        z-index:  1;
+        transition: 0.5s;
+    }
+    nav .fa{
+        display: block;
+        color: white;
+        margin: 10px;
+        font-size: 22px;
+        cursor: pointer;
+        padding: 10px;
+    }
+    .nav-link ul{
+        padding: 30px;
+    }
+    .text-box a{
+        width: 30%;
+        font-size: 17px;
+    }
+    .row{
+        flex-direction: column;
+    }
+    .course h1{
+        font-size: 37px;
+       
+    }
+    .cta a{
+        width: 25%;
+        font-size: 15px;
+    }
+    .campus{
+        width: 70%;
+       
+    }
+    .nav-link ul li .active{
+        color: rgb(104, 4, 4);
+    }
+}
+
+@media(max-width:800px){
+    .text-box a{
+        width: 60%;
+        font-size: 15px;
+    }
+    .small-text{
+        font-size: 16px;
+    }
+    .cta a{
+        width: 35%;
+        font-size: 15px;
+    }
+}
